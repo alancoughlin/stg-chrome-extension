@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "stg",
+  "version": "1.0",
+  "description": "A fix for the tiny timesheet notes for stg consultants",
+  "author": "Matt Nicholas",
+  
+  "content_scripts": [
+    {
+   "css": ["styles.css"],
+   "js": ["content.js"],
+   "matches": ["https://stgconsulting.force.com/*"]
+  }
+]
+ 
+}
