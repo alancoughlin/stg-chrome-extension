@@ -1,9 +1,9 @@
 # stg-chrome-extension
 
 Various enchancements for the timesheet page for STG consultants.
-*Prevents user from being auto-logged out after timeout
-*Properly aligns columns for billable hours and PTO hours
-*Makes notes section bigger
+* Prevents user from being auto-logged out after timeout
+* Properly aligns columns for billable hours and PTO hours
+* Makes notes section bigger
 
 
 ## install steps
