@@ -7,8 +7,7 @@ Various enchancements for the timesheet page for STG consultants.
 
 
 ## install steps
-1. Click on the github link
-0. Click 'clone or download', and select 'download zip'
+1. Click 'clone or download', and select 'download zip'
 0. Extract the zip file
 0. Go to your chrome settings and click 'extensions' on the top left
 0. Make sure the 'Developer mode' checkbox is checked
