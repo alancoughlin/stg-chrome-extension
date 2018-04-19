@@ -7,11 +7,11 @@ Various enchancements for the timesheet page for STG consultants.
 
 
 ## install steps
-1. Click 'clone or download', and select 'download zip'
-0. Extract the zip file
-0. Go to your chrome settings and click 'extensions' on the top left
-0. Make sure the 'Developer mode' checkbox is checked
-0. Click 'load unpacked extension' and then select the folder you extracted
+1. Click 'clone or download', and select 'download zip'.
+0. Extract the zip file.
+0. In Google Chrome, select 'More Tools', then 'Extensions' from the menu in the upper-right.
+0. Make sure the 'Developer mode' option is checked.
+0. Click 'LOAD UNPACKED' and then select the folder you extracted.
 
 It will work automatically any time it detects the 'stgconsulting.force' url.
 Because I didn't go through the Chrome store you will see a message saying to disable extensions in developer mode whenever you start chrome. Click cancel to ignore it or the extension won't run.
