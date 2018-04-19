@@ -1,8 +1,268 @@
+/* Pay Period Nav */
+label.pgHeading.dBlockM {
+  display: none;
+}
+
+#page\:j_id0\:timesheetForm\:clPrevWeek {
+  font-size: 0;
+  width: 0; 
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-right: 15px solid #808080;
+  vertical-align: middle;
+  margin-right: 12px;
+}
+
+#page\:j_id0\:timesheetForm\:clPrevWeek:hover {
+  border-right: 15px solid #aaa;
+}
+
+#page\:j_id0\:timesheetForm\:clNextWeek {
+  font-size: 0;
+  width: 0; 
+  height: 0; 
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 15px solid #808080;
+  vertical-align: middle;
+  margin-left: 5px;
+}
+
+#page\:j_id0\:timesheetForm\:clNextWeek:hover {
+  border-left: 15px solid #aaa;
+}
+
+#page\:j_id0\:timesheetForm\:stdate1 {
+    border: 2px solid #808080;
+}
+
+#page\:j_id0\:timesheetForm\:weekStart,
+#page\:j_id0\:timesheetForm\:weekEnd {
+  font-weight: 400 !important;
+}
+/* END Pay Period Nav */
+
+#BoxContainerapp,
+#page\:j_id0\:timesheetForm\:timsheethfp .stylBtable.mxWidth {
+  font-size: 0.8em;
+  border-radius: 0 !important;
+  max-width: calc(100% - 20px) !important;
+  margin: 0 -10px !important;
+  border: none !important;
+}
+
+th.pTop,
+th.labelStyl,
+.stylBtable th:last-of-type {
+  background-color: #999;
+  padding: 0 !important;
+  border-right: 1px solid #fff;
+  margin: 0 !important;
+}
+
+th.pEnd.pTop {
+  color: #fff;
+  font-weight: 100;
+  text-align: center;
+}
+
+.rwd-table th,
+.rwd-table td {
+  text-align: center !important;
+}
+
+#BoxContainerapp .rwd-table td:last-of-type label.labelStyl,
+#page\:j_id0\:timesheetForm\:timsheethfp .rwd-table td:last-of-type label.labelStyl {
+  color: #000;
+}
+
+#BoxContainerapp .rwd-table label.labelStyl,
+#page\:j_id0\:timesheetForm\:timsheethfp .rwd-table label.labelStyl {
+  font-weight: 100;
+  font-size: 11px !important;
+  line-height: 1.1;
+  color: #fff;
+  text-align: center;
+  width: 82px !important;
+  padding: 4px 5px;
+  box-sizing: border-box;
+  margin: 0 1px;
+}
+
+#page\:j_id0\:timesheetForm\:timsheethfp .rwd-table td[data-th="Total"] label.labelStyl,
+#BoxContainerapp .rwd-table td[data-th="Total"] label.labelStyl {
+  font-size: 15px !important;
+}
+
+
+#BoxContainerapp .rwd-table td,
+.stylBtable .rwd-table td {
+  padding: 2px !important;
+}
+
+#BoxContainerapp .rwd-table td:first-of-type {
+  background-color: transparent !important;
+  text-align: left !important;
+}
+
+#BoxContainerapp .rwd-table .numVal input,
+#page\:j_id0\:timesheetForm\:timsheethfp .rwd-table .numVal input {
+  text-align: center;
+  width: 82px !important;
+  font-size: 15px;
+  font-weight: 100;
+  border: 1px solid #c8c8c8;
+}
+
+#BoxContainerapp .rwd-table .numVal,
+.stylBtable .rwd-table .numVal {
+  text-align: center !important;
+}
+
+#BoxContainerapp .rwd-table .numVal span,
+.stylBtable .rwd-table .numVal span {
+  text-align: center !important;
+  font-size: 15px !important;
+  font-weight: 100;
+}
+
+@media screen and (max-width: 1554px) {
+  #BoxContainerapp .rwd-table label.labelStyl,
+  #page\:j_id0\:timesheetForm\:timsheethfp .rwd-table label.labelStyl {
+    width: 52px !important;
+  }
+
+  #BoxContainerapp .rwd-table .numVal input,
+  #page\:j_id0\:timesheetForm\:timsheethfp .rwd-table .numVal input {
+    width: 52px !important;
+  }
+}
+
+#BoxContainerapp .rwd-table .numVal input:focus,
+#page\:j_id0\:timesheetForm\:timsheethfp .rwd-table .numVal input:focus {
+  outline: 1px solid #337ab7;
+}
+
+.rwd-table .bTop {
+  border-top: none !important;
+}
+
+.stylBtable tr:last-of-type td.labelStyl {
+  text-align: center;
+  font-weight: 400;
+  font-size: 15px !important;
+}
+
+.stylBtable tr:last-of-type td.labelStyl span.numVal {
+  border-top: 1px solid #aaa;
+  width: 90% !important;
+  display: inline-block;
+}
+
+th.labelSfst.tCenter.bFirst.pTop {
+  white-space: unset !important;
+  width: 160px !important;
+  display: block;
+  margin: 0;
+  text-align: left !important;
+  padding: 0 4px;
+}
+
+th.pTop:first-of-type {
+  background-color: transparent !important;
+}
+
+.stylBtable .dBlock {
+  display: inline !important;
+  font-weight: 100;
+}
+
+.stylBtable .tCenterD {
+  text-align: right !important;
+  padding-right: 10px;
+}
+
+#BoxContainerapp .rwd-table span.labelStyl.numVal {
+  font-size: 0 !important;
+}
+
+/* Print Buttons */
+#page\:j_id0\:timesheetForm\:MassButtonOP {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btnclassname:hover {
+  background: none !important;
+  background-color: #808080 !important;
+}
+
+#page\:j_id0\:timesheetForm\:printLink,
+#page\:j_id0\:timesheetForm\:saveLink,
+#page\:j_id0\:timesheetForm\:topSubmitButton {
+  font-weight: 100;
+  font-size: 13px;
+  text-shadow: none;
+  background-color: #808080 !important;
+  border: none;
+  box-shadow: none;
+}
+
+#page\:j_id0\:timesheetForm\:printLink {
+  margin-right: auto;
+}
+
+#page\:j_id0\:timesheetForm\:printLink:hover,
+#page\:j_id0\:timesheetForm\:saveLink:hover,
+#page\:j_id0\:timesheetForm\:topSubmitButton:hover {
+  color: #fff;
+  background-color: #808080 !important;
+  opacity: .8;
+}
+
+#page\:j_id0\:timesheetForm\:saveLink {
+  background-color: #337ab7 !important;
+}
+
+#page\:j_id0\:timesheetForm\:saveLink:hover {
+  background-color: #5196d2 !important;
+  opacity: 1;
+}
+/* END Print Buttons */
+
 .textareaStyling2 {
-  height: 300px !important;
+  min-height: 300px !important;
+  padding: 8px 12px;
 }
 
-
-div.mxWidth {
-  max-width: 1251px !important;
+/* Saved Message */
+.message.confirmM3 {
+  width: 180px;
+  margin: -30px auto 20px;
+  border: none;
+  background-color: #dbf7db;
+  padding: 3px 0 7px 12px;
 }
+
+img.msgIcon {
+  display: none;
+}
+
+.message.confirmM3 h4 {
+  display: none !important;
+}
+
+.message.confirmM3 .messageText {
+  position: relative;
+}
+
+.message.confirmM3 .messageText:before {
+  content: "\2713";
+  font-size: 21px;
+  color: #169d16;
+  position: relative;
+  left: -4px;
+  top: 3px;
+}
+/* END Saved Message */
