@@ -72,6 +72,16 @@ th.pEnd.pTop {
   text-align: center !important;
 }
 
+#BoxContainerapp td:nth-of-type(2) {
+  width: 10px;
+  line-height: .9;
+}
+
+#BoxContainerapp td:nth-of-type(2) span.labelStyl.numVal {
+  font-size: 8px !important;
+  font-weight: 400;
+}
+
 #BoxContainerapp .rwd-table td:last-of-type label.labelStyl,
 #page\:j_id0\:timesheetForm\:timsheethfp .rwd-table td:last-of-type label.labelStyl {
   color: #000;
