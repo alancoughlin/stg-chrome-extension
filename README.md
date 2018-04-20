@@ -4,7 +4,7 @@ Various enchancements for the timesheet page for STG consultants.
 * Various usability improvements
 * Prevents user from being auto-logged out after timeout
 
-## install steps
+## Install Steps
 1. Click 'clone or download', and select 'download zip'.
 0. Extract the zip file.
 0. In Google Chrome, select 'More Tools', then 'Extensions' from the menu in the upper-right.
