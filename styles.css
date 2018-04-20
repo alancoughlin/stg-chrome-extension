@@ -208,6 +208,11 @@ th.pTop:first-of-type {
   background-color: #808080 !important;
 }
 
+.btnclassname:focus {
+  color: #fff;
+  text-decoration: none;
+}
+
 #page\:j_id0\:timesheetForm\:printLink,
 #page\:j_id0\:timesheetForm\:saveLink,
 #page\:j_id0\:timesheetForm\:topSubmitButton {
