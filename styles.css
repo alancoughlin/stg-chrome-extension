@@ -1,4 +1,4 @@
-/* Pay Period Nav */
+  /* Pay Period Nav */
 label.pgHeading.dBlockM {
   display: none;
 }
@@ -236,6 +236,12 @@ th.pTop:first-of-type {
   opacity: .8;
 }
 
+#page\:j_id0\:timesheetForm\:printLink:active,
+#page\:j_id0\:timesheetForm\:saveLink:active,
+#page\:j_id0\:timesheetForm\:topSubmitButton:active {
+  color: #fff;
+}
+
 #page\:j_id0\:timesheetForm\:saveLink {
   background-color: #337ab7 !important;
 }
@@ -253,11 +259,11 @@ th.pTop:first-of-type {
 
 /* Saved Message */
 .message.confirmM3 {
-  width: 180px;
+  width: 220px;
   margin: -30px auto 20px;
   border: none;
   background-color: #dbf7db;
-  padding: 3px 0 7px 12px;
+  padding: 3px 0 7px;
 }
 
 img.msgIcon {
