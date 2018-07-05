@@ -128,6 +128,7 @@ th.pEnd.pTop {
 #BoxContainerapp .rwd-table .numVal,
 .stylBtable .rwd-table .numVal {
   text-align: center !important;
+  width: 100%;
 }
 
 #BoxContainerapp .rwd-table .numVal span,
